@@ -1,7 +1,7 @@
 {
   "name": "ai-branch",
-  "version": "1.0.0",
-  "description": "Generate descriptive git branch names from plain English descriptions",
+  "version": "1.0.1",
+  "description": "Generate descriptive git branch names from plain English descriptions. Follows conventional naming patterns like feature/, fix/, chore/.",
   "main": "dist/index.js",
   "bin": {
     "ai-branch": "dist/cli.js"
@@ -12,8 +12,19 @@
   "keywords": [
     "git",
     "branch",
+    "branch-naming",
+    "git-workflow",
     "ai",
-    "cli"
+    "gpt",
+    "openai",
+    "cli",
+    "developer-tools",
+    "automation",
+    "productivity",
+    "conventional",
+    "feature-branch",
+    "git-branch",
+    "naming-convention"
   ],
   "license": "MIT",
   "dependencies": {
@@ -30,5 +41,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lxgicstudios/ai-branch"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-branch#readme",
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/ai-branch/issues"
   }
 }
